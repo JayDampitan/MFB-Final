@@ -9,6 +9,14 @@ body {
 }
 
 
+/* nav css */
+
+nav {
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+}
+
 /* carousel css */
 
 
@@ -23,10 +31,12 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
+    color: rgba(251, 251, 251, 0.5);
 }
 
 .jumbotron {
     margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 article {
