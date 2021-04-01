@@ -10,7 +10,6 @@ body {
 
 /* nav css */
 
-
 nav.navbar {
     position: absolute;
     top: 0;
@@ -23,17 +22,18 @@ nav.navbar {
 
 #navbarNav {
     font-size: 22px;
+    position: relative;
 }
 
 nav li {
     padding: 0 20px;
+    font-family: "Kiwi Maru", sans-serif;
 }
 
 nav img {
     width: 130px;
+    position: relative;
 }
-
-
 
 /* carousel css */
 .carousel-inner img{
@@ -66,6 +66,9 @@ nav img {
     margin-left: 45%;
 }
 
+#jumbotron2 {
+    font-family: "Kiwi Maru", sans-serif;
+}
 
 /* card section */
 article {
@@ -81,8 +84,6 @@ article {
     border: none;
 }
 
-
-
 /* accordion css */
 
 .accordion {
@@ -94,13 +95,14 @@ article {
 
 /* footer css */
 footer .col-md-4 {
-    height: 150px;
+    height: 170px;
 }
 
 footer a {
     color: #ffffff;
 }
 
+/* circles css */
 .big-circle {
     position: absolute;
     top: 700px;
@@ -146,7 +148,6 @@ footer a {
     opacity: 1;
     z-index: -1;
 }
-
 
 /* contact page */
 a {
@@ -277,7 +278,6 @@ a {
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
     border: 2px solid #FFFFFF;
 }
-
 
 @media(max-width:1100px){
     .map{
