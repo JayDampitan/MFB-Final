@@ -23,14 +23,17 @@ nav.navbar {
 
 #navbarNav {
     font-size: 22px;
+    position: relative;
 }
 
 nav li {
     padding: 0 20px;
+    font-family: "Kiwi Maru", sans-serif;
 }
 
 nav img {
     width: 130px;
+    position: relative;
 }
 
 
@@ -66,6 +69,12 @@ nav img {
     margin-left: 45%;
 }
 
+#jumbotron2 {
+    font-family: "Kiwi Maru", sans-serif;
+}
+
+
+
 
 /* card section */
 article {
@@ -94,13 +103,15 @@ article {
 
 /* footer css */
 footer .col-md-4 {
-    height: 150px;
+    height: 170px;
 }
 
 footer a {
     color: #ffffff;
 }
 
+
+/* circles css */
 .big-circle {
     position: absolute;
     top: 700px;
