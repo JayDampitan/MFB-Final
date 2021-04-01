@@ -80,8 +80,23 @@ article {
     justify-content: center;
 }
 
-.card {
+.card a{
     border: none;
+    color: #000;
+    text-decoration: none;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-0.9%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.4);
 }
 
 /* accordion css */
