@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 2100px;
-}
-
 /* nav css */
-
 nav.navbar {
     position: absolute;
     top: 0;
@@ -33,6 +28,32 @@ nav li {
 nav img {
     width: 130px;
     position: relative;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
 }
 
 /* carousel css */
@@ -121,7 +142,7 @@ footer a {
 .big-circle {
     position: absolute;
     top: 700px;
-    right: 100px;
+    right: 50px;
     opacity: 0.3;
     z-index: -1;
 }
@@ -144,7 +165,7 @@ footer a {
 .big-circle2 {
     position: absolute;
     top: 1600px;
-    right: 100px;
+    right: 10px;
     opacity: 0.3;
     z-index: -1;
 }
@@ -159,6 +180,29 @@ footer a {
 .small-circle2 {
     position: absolute;
     top: 2000px;
+    left: 5%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.big-circle3 {
+    position: absolute;
+    top: o;
+    right: 10px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.medium-circle3 {
+    position: absolute;
+    top: 400px;
+    right: 44%;
+    z-index: -1;
+}
+
+.small-circle3 {
+    position: absolute;
+    top: 500px;
     left: 5%;
     opacity: 1;
     z-index: -1;
@@ -294,6 +338,25 @@ a {
     border: 2px solid #FFFFFF;
 }
 
+/* nav media query css */
+@media(max-width:990px){
+    nav img{
+        margin-top: -40px;
+    }
+    .navbar-toggler {
+        margin-top: -45px;
+    }
+}
+
+/* contact media query */
+@media(max-width:1100px){
+    footer .row {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* contact media query */
 @media(max-width:1100px){
     .map{
         display: none;
