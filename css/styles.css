@@ -338,6 +338,13 @@ a {
     border: 2px solid #FFFFFF;
 }
 
+/* jumbotron media query */
+@media(max-width:900px){
+    .jumbotron a{
+      margin-left: 35%; 
+    }
+}
+
 /* nav media query css */
 @media(max-width:990px){
     nav img{
